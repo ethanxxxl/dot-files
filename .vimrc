@@ -28,6 +28,8 @@ Plugin 'severin-lemaignan/vim-minimap'
 call vundle#end()
 filetype plugin indent on
 
+set encoding=utf-8
+
 set number
 set relativenumber
 
@@ -53,7 +55,7 @@ set autoindent
 set smartindent
 
 
-set mouse=a
+set mouse=r
 
 set foldmethod=syntax
 set nofoldenable
